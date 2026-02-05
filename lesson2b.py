@@ -11,9 +11,9 @@ print(counties[3:])
 
 # Accessing items of a tuple by use of the indexes
 print(counties[5])
-print(counties[9])
 
-# Note below wil generate an error
-# Attribute error
-counties.append("Machakos")
-print(counties)
+
+planets  = ("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto")
+print(planets)
+print(planets[2:6])
+print(planets[2:7])
